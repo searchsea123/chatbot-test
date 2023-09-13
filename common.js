@@ -6,7 +6,7 @@ const chatbotToggler = document.querySelector('.chatbot-toggler');
 const chatbotCloseBtn = document.querySelector('.close-btn');
 
 let userMessage;
-const API_KEY = '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'; // api key 생성 후 링크 복사
+const API_KEY = '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'; // api key 생성 후 링크 복사
 
 const createChatLi = (message,className) => {
     const chatLi = document.createElement('li');
