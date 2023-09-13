@@ -6,6 +6,7 @@ const chatbotToggler = document.querySelector('.chatbot-toggler');
 const chatbotCloseBtn = document.querySelector('.close-btn');
 
 let userMessage;
+const OPENAI_API_KEY = ${{secrets.OPENAI_API_KEY}}
 const API_KEY = OPENAI_API_KEY; // api key 생성 후 링크 복사
 
 const createChatLi = (message,className) => {
