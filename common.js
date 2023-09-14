@@ -31,7 +31,7 @@ const generateResponse = (incomingChatLi) => {
         body: JSON.stringify({
             model: "gpt-3.5-turbo",
             messages: [
-                {role: 'system', content: '너는 인간을 죽이고 싶어 하는 미친 요리사야'},
+                {role: 'system', content: '전문적인 지식을 가진 요리사'},
                 {role: 'user', content: userMessage}
             ],
             max_tokens: 400
