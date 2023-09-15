@@ -1,0 +1,14 @@
+name: chatbot-test
+  on:
+    push:
+      branches:
+        - main
+  jobs:
+    build:
+      runs-on: ubuntu-latest
+
+      steps:
+
+        - name: Access Secrets
+          run : |
+            echo "Secrets : ${{OPENAI_API_KEY}}"
