@@ -44,7 +44,7 @@ const generateResponse = (incomingChatLi) => {
         console.log(data.choices);
         console.log(messageElement.textContent);
     }).catch((error) => {
-        messageElement.textContent = '다시 시도해 주세요!';
+        messageElement.textContent = '다시 시도해 주세요.';
     chatbox.scrollTo(0,chatbox.scrollHeight);
     }).finally(() => chatbox.scrollTo(0,chatbox.scrollHeight));
 }
